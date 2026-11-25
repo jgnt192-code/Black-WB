@@ -1,0 +1,123 @@
+# ============================================
+# BUN RUNTIME & DEPENDENCIES
+# ============================================
+node_modules/
+.bun/
+.cache/
+.oven/
+bun-debug.log*
+bun-error.log*
+
+# ============================================
+# ENVIRONMENT & SECURITY
+# ============================================
+.env
+.env.*
+!.env.example
+.env.local
+.env.*.local
+.env.backup
+.secrets/
+keys/
+certificates/
+ssl/
+.current_version
+.agents/
+.local/
+
+# ============================================
+# DATABASE & DATA STORAGE
+# ============================================
+*.db
+*.db-wal
+*.db-shm
+*.db-*
+src/database/*.db
+src/database/*
+!src/database/.gitkeep
+data/
+storage/
+temp.db
+test.db
+
+# ============================================
+# LOGS & TEMPORARY FILES
+# ============================================
+logs/
+*.log
+bun-debug.log*
+bun-error.log*
+*.pid
+*.pid.lock
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+~*
+
+# ============================================
+# BUN BUILD & CACHE
+# ============================================
+dist/
+build/
+out/
+.bun-cache/
+
+# ============================================
+# MEDIA & CACHE
+# ============================================
+temp/
+tmp/
+cache/
+downloads/
+media/
+uploads/
+.prekey/
+
+# ============================================
+# SERVICE & PROCESS MANAGEMENT
+# ============================================
+service
+*.service
+bun.pid
+.pm2/
+
+# ============================================
+# BACKUP & ARCHIVE
+# ============================================
+attached_assets/
+*.bak
+*.backup
+*.old
+*.orig
+dump.rdb
+
+# ============================================
+# TEST & COVERAGE
+# ============================================
+coverage/
+test-results/
+/generated-artifacts/
+src/database/bot-settings.json
+
+# ============================================
+# DOCKER & VIRTUALIZATION
+# ============================================
+docker-compose.override.yml
+.vagrant/
+*.box
+
+# ============================================
+# EXCLUSIVELY FOR BUN PROJECTS
+# ============================================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
