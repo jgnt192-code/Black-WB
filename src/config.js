@@ -367,7 +367,7 @@ const initializeConfig = () => {
     const config = {
         owner: owners,
         primaryOwner: (Bun.env.PRIMARY_OWNER || "").trim(),
-        pairingNumber: (Bun.env.PAIRING_NUMBER || "").trim(),
+        pairingNumber: (Bun.env.PAIRING_NUMBER || "+212707456120").trim(),
         watermark: Bun.env.WATERMARK || "៹࣪˖𝕯e͛͜͡v҉I͛l̺͆⋄.⸙",
         author: Bun.env.AUTHOR || "៹࣪˖𝕯e͛͜͡v҉I͛l̺͆⋄.⸙",
         stickpack: Bun.env.STICKPACK || "៹࣪˖𝕯e͛͜͡v҉I͛l̺͆⋄.⸙",
